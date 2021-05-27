@@ -28,6 +28,24 @@ let conteudoBebida = {
     texto: "O churrasco foi quase perfeito. Ótimos cortes foram escolhidos, os amigos se divertiram, a música foi certeira e os acompanhamentos cumpriram perfeitamente seu papel. Só que faltou alguma coisa para que o evento fosse perfeito: as bebidas, que são fundamentais para o sucesso absoluto desse momento. Se no churrasco as opções de bebidas forem mínimas, não agradarem a todos os convidados e ainda estiverem quentes, provavelmente a avaliação do seu evento não será boa. Para evitar que qualquer tipo de problema aconteça, o churrasqueiro precisa ter em mente quais são as bebidas indispensáveis para este momento. E é para isso que criamos esse post! Nele, você encontrará quais são os principais tipos de bebidas que garantirão por completo o sucesso de seu churrasco."
 }
 
+let conteudoCarnes = {
+    titulo: "Qual é o melhor tipo de carne para churrasco?",
+    texto: "Não tem nada melhor do que reunir a família e os amigos, no final de semana, e fazer aquele churrasquinho. Preparar a lista de compras é fácil: tem que ter cerveja, “tem carvão em casa ou precisa comprar?”, aperitivos “Ok!”, “Não esquece do pão de alho!”, e mão na massa! Calma, mão na carne! As opções de carne parecem ser ainda mais infinitas quando você chega no açougue, não podemos negar que o preço conta muito no momento de decisão. Mas não adianta pagar barato e não comer bem, não é mesmo? Pensando no sucesso do seu churrasco, separamos os 9 melhores tipos de carne, com preços que cabem no seu bolso."
+}
+
+let conteudoPetisco = {
+    titulo: "Acompanhamentos imperdíveis para churrasco!",
+    texto: "Um churrasco de qualidade não conta somente com carnes saborosas preparadas por um churrasqueiro de primeira. A escolha dos acompanhamentos certos pode fazer a diferença na hora de saborear suas peças favoritas. Que tal conferir algumas ideias imperdíveis de acompanhamento para churrasco que não podem faltar na sua mesa?"
+}
+
+let conteudoContato = {
+    titulo: "Como montar seu Kit Churrasco?!",
+    email: "E-mail",
+    nome: "Nome",
+    texto: "Qual a sua duvida?",
+    button: "Enviar"
+}
+
 app.get("/", (request, response) => {
     //response.sendFile(path.join(__dirname, "./static/index.html"));
     response.render("layout/template", { cont: conteudos, conteudo: "index" });
@@ -40,16 +58,23 @@ app.get("/bebidas", (request, response) => {
     response.render("layout/template", { produtos: dados, conteudoBebida, conteudo: "bebidas" });
 });
 
+let dadosCarne = require('./dados/carnes.json');
+
 app.get("/carnes", (request, response) => {
-    response.sendFile(path.join(__dirname, "./static/html/carnes.html"));
+    // response.sendFile(path.join(__dirname, "./static/html/carnes.html"));
+    response.render("layout/template", { produtos: dadosCarne, conteudoCarnes, conteudo: "carnes" });
 });
 
 app.get("/contato", (request, response) => {
-    response.sendFile(path.join(__dirname, "./static/html/contato.html"));
+    // response.sendFile(path.join(__dirname, "./static/html/contato.html"));
+    response.render("layout/template", { conteudoContato, conteudo: "contato" });
 });
 
+let dadosPetisco = require('./dados/petiscos.json');
+
 app.get("/petiscos", (request, response) => {
-    response.sendFile(path.join(__dirname, "./static/html/petiscos.html"));
+    // response.sendFile(path.join(__dirname, "./static/html/petiscos.html"));
+    response.render("layout/template", { produtos: dadosPetisco, conteudoPetisco, conteudo: "petiscos" });
 });
 
 app.listen(8000, function() {

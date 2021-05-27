@@ -1,0 +1,50 @@
+[{
+        "id": 1,
+        "nome": "Pãozinho de alho",
+        "descricao": "Um petisco de churrasco que é tão tradicional quanto o queijo coalho e a linguiça é o pãozinho de alho. Além de ser um carboidrato fácil de combinar, esse pão tem um charme à parte. Seu sabor aromático e discretamente picante, derivado do alho, é o ponto forte.",
+        "foto": "petisco-6.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 2,
+        "nome": "Queijo coalho",
+        "descricao": "Sabemos que a carne é o grande destaque de qualquer churrasco, mas você já conseguiu pensar em organizar essa refeição sem o acompanhamento de um queijo coalho bem grelhadinho? Esse tipo de queijo, produzido a partir da união do leite cru com o coalho, tem como uma de suas características o sabor leve. Ele é perfeito para abrir o apetite enquanto você espera sua carne grelhar na churrasqueira.",
+        "foto": "petisco-7.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 3,
+        "nome": "Linguiça cuiabana",
+        "descricao": "A linguiça é um acompanhamento para churrasco tradicional, que quase sempre aparece na lista de ingredientes desse evento. Mas você já pensou em inovar e preparar uma verdadeira linguiça cuiabana? Ela pode ser feita com carne bovina, suína ou de frango e leva leite, ervas, pimentas e queijo na sua preparação. Sem sombra de dúvidas ela será uma surpreendente opção de acompanhamento para o seu churrasco!",
+        "foto": "petisco-5.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 4,
+        "nome": "Frutas e legumes grelhados",
+        "descricao": "Uma das frutas favoritas dos churrasqueiros para esta finalidade é o abacaxi, que é um excelente digestivo para servir após as carnes. Bananas, mangas, melancias e morangos também podem ser preparados na grelha. Elas servem tanto como um bom acompanhamento, como uma alternativa saborosa de sobremesa! Já na turma dos legumes, as batatas, cenouras e berinjelas são as opções favoritas dos churrasqueiros.",
+        "foto": "petisco-4.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 5,
+        "nome": "Farova de ovos",
+        "descricao": "A farofa é uma receita tradicionalmente brasileira e que nunca pode faltar à mesa quando o assunto é churrasco. Adicione à sua farofa alguns ovos mexidos, uma cenourinha ralada, algumas lascas de cebola roxa e pronto! Você terá na sua mesa uma opção tão saborosa de acompanhamento para churrasco quanto as suas carnes preparadas na churrasqueira.",
+        "foto": "petisco-3.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 6,
+        "nome": "Vinagrete",
+        "descricao": "A farofa é uma receita tradicionalmente brasileira e que nunca pode faltar à mesa quando o assunto é churrasco. Adicione à sua farofa alguns ovos mexidos, uma cenourinha ralada, algumas lascas de cebola roxa e pronto! Você terá na sua mesa uma opção tão saborosa de acompanhamento para churrasco quanto as suas carnes preparadas na churrasqueira.",
+        "foto": "petisco-2.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 7,
+        "nome": "Maionese de batata",
+        "descricao": "Todo churrasco deve ser planejado com uma opção de carboidrato como acompanhamento principal das carnes. Se você quer evitar o básico, como o arroz ou a farofa, que tal inovar com a maionese de batata? A maionese de batata é um complemento diferente, mas que agrada a todos os tipos de paladares.",
+        "foto": "petisco-1.jpg",
+        "categoriaId": 1
+    }
+]

@@ -1,0 +1,53 @@
+[{
+        "id": 1,
+        "nome": "Picanha",
+        "descricao": "A principal chave do sucesso é selar a picanha antes de começar a assar. Para isso, deixe alguns minutos próxima ao fogo, com uma distância de cerca de 20 cm, sem esquecer de girar para que todas as partes fiquem no mesmo ponto. Em seguida, suba a sua carne e deixe assar até o ponto de sua preferência. Acredite, essa selagem deixará a sua carne ainda mais saborosa!",
+        "foto": "carne-7.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 2,
+        "nome": "Costelinha",
+        "descricao": "Com fibras grossas e compridas, a costelinha, de boi ou de porco, merece um destaque especial no seu churrasco. Ela realmente combina com tudo! Temperos exóticos ou sal grosso, se você tiver paciência para o longo tempo de cozimento, é sucesso garantido. Falando em combinar com os mais variados temperos, que tal regá-la com molho barbecue? Ou melhor, o que você acha de rechea-la em cortes transversais com rodelas de cebola? Vai ficar sensacional!",
+        "foto": "carne-4.jpg",
+        "categoriaId": 1
+
+    },
+    {
+        "id": 3,
+        "nome": "Asinhas de frango",
+        "descricao": "Existe algum churrasco no mundo que não comece servindo asinhas de frango? A criançada adora, principalmente por causa da crocância. Os adultos também adoram, é impossível resistir aos temperos leves e agridoces que combinam com essa carne. As asinhas também são bem fáceis de preparar, podendo ser feitas na grelha, assadas no forno ou encarar o espeto na churrasqueira. A melhor parte de todas é preparar os diferentes molhos que deixarão essa receita ainda mais saborosa!",
+        "foto": "carne-1.jpg",
+        "categoriaId": 1
+
+    },
+    {
+        "id": 4,
+        "nome": "Filé mignon",
+        "descricao": "Não muito comum no cardápio diário dos brasileiros, o nobre pedaço é a melhor opção se você deseja ousar no seu churrasco. Macio e levemente adocicado, o filé mignon também pode ser servido em forma de espetinhos acompanhado de outras carnes e legumes.",
+        "foto": "carne-5.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 5,
+        "nome": "Fraldinha",
+        "descricao": "Fraldinha é uma ótima opção se você busca por uma carne leve e macia. De corte pequeno e fibras longas, possui pouca gordura e é a queridinha do mundo fitness. O seu preparo pode ser feito na brasa, deixando o trabalho no manuseio da churrasqueira para as outras carnes do seu churrasco.",
+        "foto": "carne-3.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 5,
+        "nome": "Maminha",
+        "descricao": "Vencedora de suculência e sabor, a maminha pode ser considerada a parte do boi onde esteja a maior concentração de gordura. Ao corta-la, é importante que seja sempre contra as fibras da peça, para garantir a sua maciez. O seu preparo pode ser na grelha, no espeto ou fatiada. Fica gostosa de qualquer jeito!",
+        "foto": "carne-2.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 6,
+        "nome": "Alcatra",
+        "descricao": "Se você optar por comprar a peça inteira de alcatra, poderá divida-la em três delicioas partes: picaha, maminha e o miolo da alcatra. Essa parte central da carne, onde fica o miolo, contem a maciez que você procura, com menos gordura do que a picanha, considerada mais saudável e super saborosa. O seu preparo pode ser na grelha por cerca de 20 minutos, mas é importante ficar atento para não passar do ponto.",
+        "foto": "carne-6.jpg",
+        "categoriaId": 1
+    }
+
+]
