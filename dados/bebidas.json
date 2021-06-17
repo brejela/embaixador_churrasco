@@ -1,0 +1,31 @@
+[{
+        "id": 1,
+        "nome": "Cerveja: a companhia perfeita!",
+        "descricao": "Para escolher as cervejas que irão fazer parte do seu evento, é importante saber quais as carnes que você irá servir. Por exemplo, quanto mais gorduroso for o corte, mais encorpada e alcóolica deverá ser a cerveja.",
+        "foto": "bebida4.jpg",
+        "categoriaId": 1
+
+    },
+    {
+        "id": 2,
+        "nome": "Vinho: um toque de classe ao churrasco",
+        "descricao": "Com objetivo similar ao das cervejas artesanais, um bom vinho oferecerá a seus convidados sensações muito interessantes. Para o churrasco, seja o corte magro ou gordo, a indicação é optar por vinhos tinto reserva. Já para carnes brancas, a dica é optar por vinhos brancos.",
+        "foto": "bebida3.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 3,
+        "nome": "Drinks e coquetéis: um belo plus",
+        "descricao": "Essas bebidas podem ser feitas com uma infinidade de frutas, com ou sem álcool. A dica principal é: Nada de drinks muito doces que vão leite, creme de leite ou leite condensado. O doce demais não combina com as carnes de um evento como o churrasco!",
+        "foto": "bebida2.jpg",
+        "categoriaId": 1
+    },
+    {
+        "id": 4,
+        "nome": "Refrigerante, água e suco: para todos",
+        "descricao": "Não menos importantes, bebidas não alcoólicas como água, refrigerantes e sucos precisam marcar presença. Com eles, você garante que todos os convidados serão lembrados na hora das refeições. É um evento entre amigos e pessoas queridas. E quer elemento melhor para conversar do que uma boa bebida? Sendo assim, dê atenção à elas e seu churrasco será um sucesso absoluto!",
+        "foto": "bebida1.jpg",
+        "categoriaId": 1
+    }
+
+]

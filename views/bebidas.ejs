@@ -1,0 +1,27 @@
+<div class="content">
+    <div>
+        <h1 class="text-center text-title-pages">
+            <%= conteudoBebida.titulo %>
+        </h1>
+        <p class="text-justified text-pages">
+            <%= conteudoBebida.texto %>
+        </p>
+    </div>
+</div>
+<% produtos.forEach(produto => { %>
+    <div class="content">
+        <div class="row col-md-10 offset-md-1">
+            <div class=" col-3 content-img">
+                <img class="float-end" src="../imagens/<%= produto.foto %>" />
+            </div>
+            <div class="card-body col-3">
+                <h1>
+                    <%= produto.nome %>
+                </h1>
+                <p class="text-justified">
+                    <%= produto.descricao %>
+                </p>
+            </div>
+        </div>
+    </div>
+    <% }) %>
