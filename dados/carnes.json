@@ -38,14 +38,14 @@
     {
         "id": 5,
         "nome": "Maminha",
-        "descricao": "Vencedora de suculência e sabor, a maminha pode ser considerada a parte do boi onde esteja a maior concentração de gordura. Ao corta-la, é importante que seja sempre contra as fibras da peça, para garantir a sua maciez. O seu preparo pode ser na grelha, no espeto ou fatiada. Fica gostosa de qualquer jeito!",
+        "descricao": "Vencedora de suculência e sabor, a maminha pode ser considerada a parte do boi onde se encontra a maior concentração de gordura. Ao corta-la, é importante que seja sempre contra as fibras da peça, para garantir a sua maciez. O seu preparo pode ser na grelha, no espeto ou fatiada. Fica gostosa de qualquer jeito!",
         "foto": "carne-2.jpg",
         "categoriaId": 1
     },
     {
         "id": 6,
         "nome": "Alcatra",
-        "descricao": "Se você optar por comprar a peça inteira de alcatra, poderá divida-la em três delicioas partes: picaha, maminha e o miolo da alcatra. Essa parte central da carne, onde fica o miolo, contem a maciez que você procura, com menos gordura do que a picanha, considerada mais saudável e super saborosa. O seu preparo pode ser na grelha por cerca de 20 minutos, mas é importante ficar atento para não passar do ponto.",
+        "descricao": "Se você optar por comprar a peça inteira de alcatra, poderá dividi-la em três delicioas partes: Picaha, maminha e o miolo da alcatra. Essa parte central da carne, onde fica o miolo, contem a maciez que você procura, com menos gordura do que a picanha, considerada mais saudável e super saborosa. O seu preparo pode ser na grelha por cerca de 20 minutos, mas é importante ficar atento para não passar do ponto.",
         "foto": "carne-6.jpg",
         "categoriaId": 1
     }
